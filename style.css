@@ -1,0 +1,48 @@
+/* تعيين الخطوط والألوان العامة */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #121212, #1a1a1a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+}
+
+/* تنسيق العنوان */
+h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    color: lime;
+    margin-bottom: 30px;
+}
+
+/* تنسيق الروابط */
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.link {
+    font-size: 1.5rem;
+    color: #00FF00;
+    text-decoration: none;
+    padding: 15px;
+    border: 2px solid #00FF00;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.link:hover {
+    background: #121212;
+    color: #00FF00;
+    border-color: #00FF00;
+}
